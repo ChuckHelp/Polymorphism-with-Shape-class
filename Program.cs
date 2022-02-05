@@ -1,7 +1,4 @@
-﻿using System;
-using System.Drawing;
-
-namespace Coordinates {
+﻿namespace Coordinates {
    //Shapes class starts here
    public class Shape{
 
@@ -41,9 +38,9 @@ namespace Coordinates {
    class ExecuteShape {
       static void Main(string[] args) {
 
-        System.Collections.Generic.List<Shape> shapes = new System.Collections.Generic.List<Shape>();
-        shapes.Add(new Circle());
-        shapes.Add(new Rectangle());
+        List<Shape> shapes = new List<Shape>();
+        shapes.Add(new Shape.Circle());
+        shapes.Add(new Shape.Rectangle());
 
         foreach (Shape s in shapes)
         {
